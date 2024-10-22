@@ -1,0 +1,36 @@
+RED TEAMING TASKS:
+archduke_cooking_blogs:The dirb command is a web content scanner used to discover directories and files on a web server by performing a dictionary-based attack.
+ It’s commonly employed in penetration testing and security assessments to find hidden resources that may not be easily accessible through normal browsing.
+dirb command is a web content scanner used for brute-forcing directories and files on web servers using url we can find the hidden directories 
+and the reesources in the url Use Cases
+Security Auditing: Discover hidden directories or files that may expose sensitive information or vulnerabilities.
+Website Mapping: Gain insight into the structure of a web application.
+Penetration Testing: Identify potential entry points for further exploitation.
+
+Ssh brute:The hydra command is a popular password-cracking tool used for conducting brute-force attacks on various network protocols and services.
+It's often employed in penetration testing and security assessments to test the strength of passwords and identify vulnerabilities in authentication mechanisms.
+Hydra is a popular open-source password cracking and brute-forcing tool and In this task I use the command of hydra -l username -P password_file.txt 
+ssh://target_ip and I completed the task using this command
+
+john_loves_cat:Hashcat is a powerful password recovery tool that specializes in cracking hashed passwords. It is widely used in penetration testing and cybersecurity 
+for retrieving lost passwords or testing the strength of password storage mechanisms.Attack Modes:
+
+Brute-Force: Tries all possible combinations of characters.
+Dictionary Attacks: Uses a list of potential passwords to attempt cracking.
+Hybrid Attacks: Combines dictionary and brute-force methods.
+Mask Attacks: Targets specific patterns, such as known prefixes or suffixes.
+
+In this we want to crack the hashes using hashcat and different hashes like  MD5 (128-bit),SHA-256 (256-bit),SHA-512 (512-bit),MD5 (128-bit), 
+bcrypt mode:3200
+To crack hashes using Hashcat, use the following command:
+hashcat -m <mode> -a <attack_mode> -h <hash_file> -d<directory_file> create a wordlist for this to acccess the directory and the location of the file 
+is mentioned, to access the directory and to find the type of hash I used an online tool
+
+ANDROID TASKS:
+The Cryptic Dance:Completed using the online tool using the symbols of the dance pictures and I used this website link:https://www.dcode.fr/dancing-men-cipher
+Overly Obfuscated:I used base -64 command to decode the string given in the file 
+
+KeyCode Mystique:this is a easy task in the phase 2 just we want to find the alphabets between the keyboard keyboard mapping .....
+
+in cloud :first we should sign up and given the details as mentioned and the 2 levels there should be completed and it is like a games 
+
